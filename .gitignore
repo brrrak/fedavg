@@ -1,5 +1,7 @@
 /workspace/
 
+.idea
+.vscode
 /.ipynb_checkpoints/
 /.pytest_cache/
 /fedavg.egg-info/
