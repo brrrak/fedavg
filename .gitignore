@@ -1,0 +1,7 @@
+/workspace/
+
+/.ipynb_checkpoints/
+/.pytest_cache/
+/fedavg.egg-info/
+
+/data/MNIST/

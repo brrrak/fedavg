@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fedavg"
+description = "A naive implementation of the FedAvg algorithm."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+version = "0.0.1"
+dependencies = [
+    "torch",
+    "torchvision"
+]
+
+[project.optional-dependencies]
+testing = ["pytest"]
+
+[tool.setuptools]
+packages = ["fedavg"]
